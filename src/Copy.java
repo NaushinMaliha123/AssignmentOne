@@ -28,7 +28,7 @@ public class Copy {
         }
 
         try {
-            while (in.hasNextLine()) {              //NullPointerException still there in line 32,34,38
+            while (in.hasNextLine()) {              //NullPointerException still there in line 32,34,37
                 String value = in.nextLine();
                 out.printf("%s%n", value);
             }
